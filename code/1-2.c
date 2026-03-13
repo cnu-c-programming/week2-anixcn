@@ -2,8 +2,8 @@
 int main()
 {
     printf("% 10s", "name");
-    printf("% 1s", "id");
-    printf("% 1s\n", "value");
+    printf("% 10s", "id");
+    printf("% 10s\n", "value");
 
     printf("% 10s", "kim");
     printf("% 1d", 12);
