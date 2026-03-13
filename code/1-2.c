@@ -2,7 +2,7 @@
 int main()
 {
     printf("% 10s", "name");
-    printf("% 10s", "id");
+    printf("% 11s", "id");
     printf("% 10s\n", "value");
 
     printf("% 10s","kim");
