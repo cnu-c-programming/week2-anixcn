@@ -5,6 +5,11 @@ int main()
 	int num = 0;
 	scanf("%d", &num);
 
+	if (num < 2) {
+		printf("false");
+		return 0;
+	}
+
 	int arr[num+1];
 
 	for (int i = 0; i <= num; i++) {
